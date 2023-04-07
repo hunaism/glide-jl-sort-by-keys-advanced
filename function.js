@@ -25,6 +25,7 @@ window.function = function (data, sort_keys, delimiter, return_delimiter, sort_t
   }
   if (ordering === 'asc') {
     sorted = sorted.reverse();
+    var joined = sorted.join(',');
   }
   if (limit.value) {
     sorted = sorted.splice(0, limit.value);

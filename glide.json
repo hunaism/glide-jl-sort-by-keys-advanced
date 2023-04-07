@@ -2,7 +2,7 @@
   {
     "kind": "column",
     "name": "joined-list-sort-by-keys",
-    "description": "Sort Joined List by secondary joined list",
+    "description": "Sort Joined List by secondary joined list (https://github.com/mcdarren/glide-jl-sort-by-keys-advanced)",
     "author": "Darren Murphy",
     "params": [
       {
